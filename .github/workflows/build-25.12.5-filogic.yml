@@ -34,7 +34,7 @@ env:
   SDK_DIR: openwrt-sdk-25.12.6-mediatek-filogic_gcc-14.3.0_musl.Linux-x86_64
   # Published in targets/mediatek/filogic/kmods/ for 25.12.6. The SDK must
   # arrive at this on its own; a mismatch means apk would refuse the module.
-   EXPECTED_KERNEL: 6.12.112-1
+  EXPECTED_KERNEL: 6.12.112-1
   EXPECTED_VERMAGIC: f0a7348f9cb959e1bf4d0447669b031e
   EXPECTED_ARCH: aarch64_cortex-a53
 
